@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# MediaPipe model files (large binary, download separately)
+app/src/main/assets/*.task
+app/src/main/assets/*.tflite
+app/src/main/assets/*.lite
+app/src/main/assets/*.bin
+app/src/main/assets/*.pb
+app/src/main/assets/*.onnx
+
+# Cached model copies (auto-generated at runtime from assets)
+app/src/main/assets/pose_landmarker_full.task
+app/src/main/assets/pose_landmarker_lite.task
+app/src/main/assets/pose_landmarker_heavy.task
